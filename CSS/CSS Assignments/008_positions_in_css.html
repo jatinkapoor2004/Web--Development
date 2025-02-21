@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eighth</title>
+    <style>
+        .parent-container{
+            background-color: yellow;
+            height: 400px;
+            width: 400px;
+            position: relative;
+            margin: 40px;
+        }
+        .static-box{
+            background-color: blue;
+            height: 100px;
+            width:100px;
+            position: static;
+            
+        }
+        .relative-box{
+            background-color:green;
+            height: 100px;
+            width: 100px;
+            position: relative;
+            top:50px;
+            left: 50px;
+            
+        }
+        .absolute-box{
+            background-color:red;
+            height: 100px;
+            width: 100px;
+            position:absolute;
+            top: 30px;
+            left:30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent-container">
+        <div class="static-box">
+            static-box
+        </div>
+        <div class="relative-box">
+            relative-box
+        </div>
+        <div class="absolute-box">
+            absolute-box
+        </div>
+    </div>
+</body>
+</html>

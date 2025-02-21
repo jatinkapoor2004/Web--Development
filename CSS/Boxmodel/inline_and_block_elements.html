@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline and Block elements</title>
+    <style>
+        .inline-example {
+        background-color: #cce6ff;
+        padding: 10px;
+        margin: 10px;
+        /* Inline elements ignore width and height */
+        width: 200px;
+        height: 100px;
+        /* display: block; */
+      }
+      .block-example {
+        background-color: #ffccff;
+        padding: 10px;
+        margin: 10px;
+        width: 200px;
+        height: 100px;
+      }
+    </style>
+</head>
+<body>
+    <h2>Inline vs Block Elements</h2>
+    <p>
+      This is a paragraph with an
+      <span class="inline-example">inline element</span> inside. Inline elements
+      only take up as much width as necessary and allow other elements next to
+      them.
+    </p>
+    <div class="block-example">
+        This is a block-level element. It takes up the full width available and
+        creates a new line before and after it.
+      </div>
+</body>
+</html>
